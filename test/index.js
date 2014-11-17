@@ -28,4 +28,14 @@ describe("metalsmith-vextab", function () {
                 done();
             });
     });
+    it("should convert HTML with no VexTab block", function (done) {
+        Metalsmith("test/fixtures/plain")
+            .use(vextab())
+            .build(function (err, files) {
+                if (err) return done(err);
+                equal('test/fixtures/plain/expected', 'test/fixtures/plain/build');
+                assert(!files["index.html"].vextab);
+                done();
+            });
+    });
 });
