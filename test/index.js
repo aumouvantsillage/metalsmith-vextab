@@ -11,7 +11,6 @@ describe("metalsmith-vextab", function () {
             .build(function (err, files) {
                 if (err) return done(err);
                 equal('test/fixtures/default/expected', 'test/fixtures/default/build');
-                assert(files["index.html"].vextab);
                 done();
             });
     });
@@ -24,7 +23,6 @@ describe("metalsmith-vextab", function () {
             .build(function (err, files) {
                 if (err) return done(err);
                 equal('test/fixtures/custom/expected', 'test/fixtures/custom/build');
-                assert(files["index.html"].vextab);
                 done();
             });
     });
@@ -34,7 +32,6 @@ describe("metalsmith-vextab", function () {
             .build(function (err, files) {
                 if (err) return done(err);
                 equal('test/fixtures/plain/expected', 'test/fixtures/plain/build');
-                assert(!files["index.html"].vextab);
                 done();
             });
     });
