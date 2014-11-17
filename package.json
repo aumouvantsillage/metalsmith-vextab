@@ -1,6 +1,6 @@
 {
     "name": "metalsmith-vextab",
-    "version": "0.1.5",
+    "version": "0.1.7",
     "description": "A Metalsmith plugin to render music notation using VexTab",
     "repository": "git://github.com/senshu/metalsmith-vextab.git",
     "author": "Guillaume Savaton",
