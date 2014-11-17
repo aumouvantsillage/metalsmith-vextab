@@ -1,0 +1,6 @@
+[submodule "vexflow"]
+	path = vexflow
+	url = https://github.com/0xfe/vexflow.git
+[submodule "vextab"]
+	path = vextab
+	url = https://github.com/0xfe/vextab.git
