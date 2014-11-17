@@ -27,6 +27,7 @@ C major scale:
 
 This plugin supports the following options:
 
+* `width` (number): the width of the SVG surface to create.
 * `startDelimiter` (string): the delimiter to open a new music block.
 * `endDelimiter` (string): the delimiter to close the current music block.
 * `logo` (boolean): show the *veflow.com* logo below the rendered musical scores.
