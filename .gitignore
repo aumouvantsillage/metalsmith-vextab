@@ -2,3 +2,4 @@ node_modules
 build
 vendor
 test/fixtures/*/build
+npm-debug.log
