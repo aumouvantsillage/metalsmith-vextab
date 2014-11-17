@@ -5,13 +5,13 @@
     "repository": "git://github.com/senshu/metalsmith-vextab.git",
     "author": "Guillaume Savaton",
     "dependencies": {
+        "debug": "^2.1.0",
         "phantom": "^0.7.0",
         "raphael": "^2.1.0",
         "underscore": "^1.7.0"
     },
     "devDependencies": {
         "assert-dir-equal": "^1.0.1",
-        "debug": "^2.1.0",
         "glob": "^4.1.1",
         "grunt": "^0.4.5",
         "grunt-contrib-coffee": "^0.12.0",
