@@ -14,14 +14,16 @@ Usage
 VexTab source code can be inserted in a source file between customizable delimiters.
 The default start and end delimiters are `<vextab>` and `</vextab>`.
 
+Caveat: do not indent the VexTab source code if this plugin is used **after** the markdown plugin.
+
 Example:
 
 ```html
 C major scale:
 
 <vextab>
-    tabstave notation=true tablature=false
-    notes C-D-E-F-G-A-B/4 C/5
+tabstave notation=true tablature=false
+notes C-D-E-F-G-A-B/4 C/5
 </vextab>
 ```
 
