@@ -3,6 +3,9 @@ metalsmith-vextab
 
 A Metalsmith plugin to render music notation as SVG using [VexTab](http://www.vexflow.com/vextab/).
 
+This module is not maintained and there is no plan to update it.
+You are free to clone this repository and make any change that you find appropriate.
+
 Installation
 ------------
 
